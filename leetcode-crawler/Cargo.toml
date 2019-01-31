@@ -7,3 +7,7 @@ edition = "2018"
 [dependencies]
 reqwest = "0.9.9"
 hyper = "0.12"
+serde_json = "*"
+serde = "*"  
+serde_derive = "*"
+html2md = "0.2.6"    # Library and binary to convert simple html documents into markdown
